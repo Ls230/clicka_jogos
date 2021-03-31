@@ -1,0 +1,76 @@
+#form{
+    display: flex;
+    justify-content: center; /*deixa no centro horizontalmente */
+    margin: -30 0px 0px 0px;
+}
+
+#logo{
+    display:flex;
+    justify-content: center;
+    margin: 200px 20px 0px 0px;
+}
+
+input{
+    width: 250px;
+    height: 30px;
+}
+
+input:focus{
+    outline: none;
+}
+
+#submit{
+    background-color: orange;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    border: none;
+}
+
+#submit:hover{
+    opacity: 0.9;
+}
+
+#submit:focus{
+    outline: none;
+    font-size: 24px;
+}
+
+ul{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+}
+
+li{
+    margin: 0px 50px 0px 10px;
+    display: inline;
+}
+
+
+body{
+    background-color: #4e4e4e;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#link:hover{
+    text-decoration: underline;
+    color: orange;
+    opacity: 0.7;
+    transition: 0.3;
+    font-size: 17px;
+}
+
+
+#tudo{
+    width: 35%;
+    background-color: #292929;
+    height: 470px;
+    margin-left: 30%;
+    box-shadow: 0px 0px 25px gray;
+}
